@@ -29,7 +29,10 @@
 
 ##### 2. Android 예제 프로그램
 
+* TextView 구현  
+[Android_TextView](https://github.com/SukSam2/Android/tree/main/Android_TextView)
 * EditText 구현 <br><br>
+** getText() 메소드 활용
 [Android_EditText](https://github.com/SukSam2/Android/tree/main/Android_EditText)
- 
+ * 
 
