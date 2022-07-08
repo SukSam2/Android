@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559152709573",
+    "project_id": "my-project-22c33",
+    "storage_bucket": "my-project-22c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559152709573:android:a50f70f88dc8da4bb295ac",
+        "android_client_info": {
+          "package_name": "com.flyai.android_firebase1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559152709573-hpta2e7uvh109ndv9i3d8r5i93vg14i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5JjTuKCVoWKwYUOkfc2pK5QRpeG9f9Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559152709573-hpta2e7uvh109ndv9i3d8r5i93vg14i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

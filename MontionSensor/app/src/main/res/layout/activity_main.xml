@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-60dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_Gravity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtTitile_Gravity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="Gravity"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/txtX_Gravity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtY_Gravity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtZ_Gravity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z: "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_Accelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearLayout_Gravity"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitile_Accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="Accelerometer"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/txtX_Accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtY_Accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtZ_Accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z: "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_LinearAcceleration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LinearLayout_Accelerometer"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitle_LinearAcceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="LinearAcceleration"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/txtX_LinearAcceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtY_LinearAcceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtZ_LinearAcceleration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z: "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_Gyroscpe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/LinearLayout_LinearAcceleration"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitle_Gyroscpe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Gyroscpe"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/txtX_Gyroscpe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="X: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtY_Gyroscpe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Y: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtZ_Gyroscpe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Z: "
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
