@@ -30,5 +30,5 @@
 ##### 2. Android 예제 프로그램
 
 > EditText 구현
-> [Android_EditText](#https://github.com/SukSam2/Android/tree/main/Android_EditText)
+> [Android_EditText](https://github.com/SukSam2/Android/tree/main/Android_EditText)
 
