@@ -1,7 +1,9 @@
 # Android
 ## Android Studio를 활용한 안드로이드 프로그래밍
 
-----------------
+
+<br>
+<br>
 
 
 <details>
@@ -15,6 +17,8 @@
   5. Motion Sensor    <br>
   6. Position Sensor    <br>
   7. Envirionment Sensor    <br>
+  8. Database 연동     <br>
+  9. Firebase 연동    <br>
   
   
   
@@ -23,6 +27,11 @@
 </details>
 <br>
 <br>
+
+
+
+----------------
+
 
 ### 1. 개발 환경 구축
 * JDK 설치  
@@ -78,7 +87,22 @@
 [EnvironmentSensor_Source](https://github.com/SukSam2/Android/tree/main/EnvironmentSensor_Source)
 * Flashlight Sensor
   * Light 센서 활용해 조도가 80lux 이하이면 스마트폰의 손전등을 켜기 + 화면의 꺼진 전등 켜는 Animation  
-[FlashlightSensor_Source](https://github.com/SukSam2/Android/tree/main/FlashlightSensor_Source)
+[FlashlightSensor_Source](https://github.com/SukSam2/Android/tree/main/FlashlightSensor_Source)  
+[LightbulbAnimation_Source](https://github.com/SukSam2/Android/tree/main/LightbulbAnimation_Source)  
+
+### 8. Database 연동
+* Android DB 연동 구현  
+  * Carlist Table에서 차종과 연비 INSERT, UPDATE, DELETE, SEARCH 하는 버튼 생성 + 활성화
+[Android_DBSQLite1](https://github.com/SukSam2/Android/tree/main/Android_DBSQLite1)  
+[Android_DBSQLite3](https://github.com/SukSam2/Android/tree/main/Android_DBSQLite3)  
+
+### 9. Firebase 연동
+* Firebase 연동 구현
+  * Realtime Database 이용  
+[Android_Firebase1](https://github.com/SukSam2/Android/tree/main/Android_Firebase1)   
+[Android_Firebase2](https://github.com/SukSam2/Android/tree/main/Android_Firebase2)   
+
+
 
 
 
