@@ -24,11 +24,12 @@
 
 ##### 1. 개발 환경 구축
 
-> JDK 설치  
-> Android Studio 설치
+* JDK 설치  
+* Android Studio 설치
 
 ##### 2. Android 예제 프로그램
 
-> EditText 구현
-> [Android_EditText](https://github.com/SukSam2/Android/tree/main/Android_EditText)
+* EditText 구현 <br><br>
+[Android_EditText](https://github.com/SukSam2/Android/tree/main/Android_EditText)
+ 
 
